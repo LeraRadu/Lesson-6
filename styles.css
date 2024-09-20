@@ -1,0 +1,58 @@
+/*:root {
+    font-size: 24px;
+}*/
+
+/*div{
+    color: bisque ;  
+        font-size: 4rem;
+        display: inline;
+}
+
+.className{
+font-size: 2r16pxm;
+    color: blue;
+}
+#testId {
+color: aquamarine;
+
+}
+.classNAme2{
+    color: green;
+    font-size: 30px;
+    font-weight: 100;
+    background-color: aqua;
+    line-height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.testEm{
+    font-size: 2em;
+
+}*/
+.unu{
+    border: 1px solid black;
+    width: 150px;/*latime*/
+    height: 150;/*inaltime*/
+}
+.doi{
+    border: 2px solid red;
+    width: 50vw;/*ia jmate din ecran view pentru latime*/
+    height: 50%;/* pentru lungime*/ 
+    /*box-sizing: border-box;  rezolva probelma cu margnile*/
+    padding: 16px 32px 38px 64px;/*setarea margienilor */
+}
+.trei{
+    border: 2px solid red;
+    width: 300px;
+    height: 300px;
+}
+body{
+        p:hover {
+       color:brown;/* se va schimba culoarea cand pui mausul deasupra*/
+
+
+     }
+          p:first-child /*pentru primul copil al parintelui or fi aplicate niste stiluri, poate fi si LAST sau nth-child(A catalea copil vrem il setam)*/
+          {
+            color: aquamarine;
+          }
+}
